@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "andaman",
+    "name": "Andaman Islands",
+    "where": "Andaman and Nicobar, India",
+    "type": "beach",
+    "season": [
+      9,
+      10,
+      11,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "seasonText": "Oct to May",
+    "nights": 5,
+    "price": 32000,
+    "blurb": "Clear water, coral reefs and quiet white-sand beaches on Havelock and Neil.",
+    "sc": [
+      "beach",
+      [
+        "#8EDCE6",
+        "#FBE3B8",
+        "#FFC15E",
+        "#0B7F86",
+        "#F1D79B",
+        "#16A3AA"
+      ]
+    ],
+    "reach": {
+      "airport": "Veer Savarkar Intl Airport (IXZ), Port Blair (connected from MAA, BLR, CCU, DEL)",
+      "railway": "No rail connectivity; reachable only via flights or deep-sea passenger ships",
+      "local": "High-speed catamarans (Makruzz, Nautika), govt ferries, prepaid cabs, auto-rickshaws"
+    },
+    "budget": {
+      "stay": 14000,
+      "food": 7000,
+      "transport": 6000,
+      "activities": 5000
+    },
+    "tips": [
+      "Ferries: Book inter-island catamaran tickets (Port Blair–Havelock–Neil) weeks in advance.",
+      "Permits: Indian nationals need no permits; RAP is lifted for foreigners on 30 inhabited islands (valid passport/visa required).",
+      "Monsoon: Intense June to September with high sea swells and suspended boat trips.",
+      "Cellular Jail: Closed Mondays and national holidays; book sound & light tickets online."
+    ],
+    "days": [
+      {
+        "title": "Port Blair & Freedom Heritage",
+        "morning": "Arrive at Port Blair (IXZ); transfer to your hotel and unwind with fresh tender coconut water.",
+        "afternoon": "Tour the national memorial at Cellular Jail and explore the Kalapani freedom struggle galleries.",
+        "evening": "Watch the historic Cellular Jail Light & Sound Show, followed by dinner at Aberdeen Bazaar."
+      },
+      {
+        "title": "Havelock (Swaraj Dweep)",
+        "morning": "Board the 90-minute high-speed catamaran from Phoenix Bay Jetty to Havelock harbour.",
+        "afternoon": "Check in at your beachfront resort and head to Radhanagar Beach (Beach No. 7), Asia’s top white-sand stretch.",
+        "evening": "Witness an unobstructed sunset over the turquoise Andaman Sea; dine at a relaxed garden cafe."
+      },
+      {
+        "title": "Elephant Beach Reef & Water Sports",
+        "morning": "Take a 20-minute speed boat to Elephant Beach for guided sea-walking or reef snorkelling.",
+        "afternoon": "Observe vibrant live corals and colourful reef fish; rest in shaded hammocks along the shore.",
+        "evening": "Return to Havelock harbour and stroll through the local island market of Govind Nagar."
+      },
+      {
+        "title": "Neil Island (Shaheed Dweep)",
+        "morning": "Ferry across to peaceful Neil Island; swim in the calm turquoise waters of Bharatpur Beach.",
+        "afternoon": "Marvel at the geological wonder of the Natural Coral Bridge (Howrah Bridge) at low tide.",
+        "evening": "Catch the crimson sunset at Laxmanpur Beach 1 before enjoying fresh grilled reef fish."
+      },
+      {
+        "title": "Chidiya Tapu & Coastal Departure",
+        "morning": "Ferry back to Port Blair; visit the Samudrika Naval Marine Museum and Anthropological Museum.",
+        "afternoon": "Drive along mangrove-lined coastal roads to the tranquil rainforest trails of Chidiya Tapu.",
+        "evening": "Shop for handcrafted mother-of-pearl crafts at Sagarika Govt Emporium before your departure flight."
+      }
+    ],
+    "coords": {
+      "lat": 11.6234,
+      "lon": 92.7265
+    }
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "where": "Goa, India",
+    "type": "beach",
+    "season": [
+      10,
+      11,
+      0,
+      1
+    ],
+    "seasonText": "Nov to Feb",
+    "nights": 4,
+    "price": 18000,
+    "blurb": "Fort walls, Portuguese lanes and a beach for every mood.",
+    "sc": [
+      "beach",
+      [
+        "#F7A072",
+        "#FFE0B0",
+        "#FFD36B",
+        "#C2563A",
+        "#F2D2A0",
+        "#1F8A9B"
+      ]
+    ],
+    "reach": {
+      "airport": "Dabolim Airport (GOI) or Manohar Intl Airport Mopa (GOX)",
+      "railway": "Madgaon (MAO), Thivim (THVM), or Karmali (KRMI)",
+      "local": "Pilot motorbike taxis, self-drive scooters/cars, prepaid airport cabs, Goa Kadamba buses"
+    },
+    "budget": {
+      "stay": 8000,
+      "food": 4500,
+      "transport": 3000,
+      "activities": 2500
+    },
+    "tips": [
+      "Churches: Strict modest dress code at Basilica of Bom Jesus & Se Cathedral (no sleeveless tops or short skirts/shorts).",
+      "Monsoon: Rough seas June to September; water sports suspended, swimming strictly red-flagged.",
+      "Scooters: Carry a valid driving license; helmet is legally mandatory for both rider and pillion.",
+      "Dudhsagar: Accessible Oct to May via forest department 4x4 jeeps from Kulem."
+    ],
+    "days": [
+      {
+        "title": "North Goa Forts & Candolim",
+        "morning": "Land at Goa airport; drive to your North Goa hotel and sip refreshing chilled kokum juice.",
+        "afternoon": "Explore Fort Aguada’s 17th-century Portuguese ramparts and the historic four-storey lighthouse.",
+        "evening": "Watch the sunset over Candolim beach with fresh Goan poi bread and live acoustic music."
+      },
+      {
+        "title": "Old Goa & Fontainhas Heritage",
+        "morning": "Marvel at the Baroque architecture and sacred relics of the Basilica of Bom Jesus and Se Cathedral.",
+        "afternoon": "Stroll through Fontainhas in Panaji, photographing pastel Portuguese villas, azulejo tiles, and art cafes.",
+        "evening": "Take a sunset cruise along the Mandovi River with traditional Goan folk music and dance."
+      },
+      {
+        "title": "South Goa & Serene Palolem",
+        "morning": "Drive south to scenic Palolem Beach, nestled between palm-topped headlands in Canacona.",
+        "afternoon": "Take a small boat to Butterfly Beach and Monkey Island for dolphin watching and calm swimming.",
+        "evening": "Savour authentic Goan fish curry, prawn balchao, and bebinca at a seaside candlelit table."
+      },
+      {
+        "title": "Ponda Spice Plantations & Divar",
+        "morning": "Visit a traditional spice plantation in Ponda; tour vanilla, nutmeg, and cinnamon plantations.",
+        "afternoon": "Savor an authentic Goan Saraswat buffet lunch served on fresh plantain leaves.",
+        "evening": "Take the local river ferry to peaceful Divar Island for an atmospheric countryside sunset walk."
+      },
+      {
+        "title": "Chapora Fort & Anjuna Crafts",
+        "morning": "Hike up to the red laterite ruins of Chapora Fort for panoramic views of Vagator coastline.",
+        "afternoon": "Browse handicrafts, cotton resort-wear, and spices at the bohemian beachside markets.",
+        "evening": "Relax at a cliffside cafe in Vagator before your transfer to the airport or railway station."
+      }
+    ],
+    "coords": {
+      "lat": 15.4909,
+      "lon": 73.8278
+    }
+  },
+  {
+    "id": "gokarna",
+    "name": "Gokarna",
+    "where": "Karnataka, India",
+    "type": "beach",
+    "season": [
+      9,
+      10,
+      11,
+      0,
+      1,
+      2
+    ],
+    "seasonText": "Oct to Mar",
+    "nights": 3,
+    "price": 12000,
+    "blurb": "A temple town with a string of secluded beaches, reached on foot.",
+    "sc": [
+      "beach",
+      [
+        "#A8E0D2",
+        "#F6EBC8",
+        "#FFCF6E",
+        "#2E8B73",
+        "#E9CF98",
+        "#1D9C98"
+      ]
+    ],
+    "reach": {
+      "airport": "Goa Dabolim (GOI, ~140 km) or Hubballi (HBX, ~150 km)",
+      "railway": "Gokarna Road (GOK, ~9 km) or Kumta (KT, ~31 km)",
+      "local": "Auto-rickshaws, cliff hiking trails between beaches, local motorized boat transfers"
+    },
+    "budget": {
+      "stay": 5000,
+      "food": 3000,
+      "transport": 2200,
+      "activities": 1800
+    },
+    "tips": [
+      "Temple Dress Code: Mahabaleshwar Temple enforces traditional attire (dhoti for men; shirts removed in inner sanctum).",
+      "Beach Trekking: Half Moon and Paradise beaches have no road access; carry water and headlamps for walking.",
+      "Monsoon: Sea currents are very strong June to August; rocky headlands become dangerously slick.",
+      "Cash: ATMs in town frequently run out; keep cash for beach cafes and boatmen."
+    ],
+    "days": [
+      {
+        "title": "Arrival & Om Beach Sunset",
+        "morning": "Arrive via Gokarna Road or Kumta; check into a cliffside cottage overlooking Om Beach.",
+        "afternoon": "Relax on Om Beach, admiring the unique rock contours naturally shaped like the sacred symbol.",
+        "evening": "Watch the crimson sun dip into the Arabian Sea while dining on wood-fired pizza and fresh juices."
+      },
+      {
+        "title": "The 5-Beaches Coastal Trek",
+        "morning": "Trek the scenic coastal path from Om Beach over headlands to secluded Half Moon Beach.",
+        "afternoon": "Reach pristine Paradise Beach, accessible only on foot or boat; swim in clear turquoise waters.",
+        "evening": "Take a boat back to Kudle Beach; enjoy an open-air yoga session and live music at a beach cafe."
+      },
+      {
+        "title": "Mahabaleshwar Temple & Town",
+        "morning": "Early morning darshan at the 4th-century Mahabaleshwar Temple, housing the venerated Atmalinga.",
+        "afternoon": "Visit the holy Kotitirtha water tank and shop for brass lamps, incense, and herbal oils.",
+        "evening": "Walk the wide expanse of Gokarna Main Beach; watch fishermen pull in their evening nets."
+      },
+      {
+        "title": "Yana Karst Rocks & Mirjan Fort",
+        "morning": "Drive 45 km into the lush Western Ghats forest to the towering monolithic limestone Yana Rocks.",
+        "afternoon": "Hike through rainforest shade beneath Bhairaveshwara Shikhara; stop by historic Mirjan Fort.",
+        "evening": "Explore Mirjan Fort’s moss-draped laterite walls and watch sunset over the Aghanashini river."
+      },
+      {
+        "title": "Kudle Leisure & Departure",
+        "morning": "Wake up to a quiet beach walk along Kudle; enjoy breakfast with tropical fresh fruit bowls.",
+        "afternoon": "Pick up handwoven cotton trousers, souvenirs, and spice packets from local stalls.",
+        "evening": "Final coastal breeze walk before catching your train at Gokarna Road or Kumta station."
+      }
+    ],
+    "coords": {
+      "lat": 14.5479,
+      "lon": 74.3188
+    }
+  },
+  {
+    "id": "munnar",
+    "name": "Munnar",
+    "where": "Kerala, India",
+    "type": "hills",
+    "season": [
+      8,
+      9,
+      10,
+      11,
+      0,
+      1,
+      2
+    ],
+    "seasonText": "Sep to Mar",
+    "nights": 3,
+    "price": 15000,
+    "blurb": "Tea terraces rolling over cool mountain slopes above the clouds.",
+    "sc": [
+      "hills",
+      [
+        "#BFE3D4",
+        "#F2F6E0",
+        "#FFF2B8",
+        "#4E9A7B",
+        "#2F7A56",
+        "#356E58"
+      ]
+    ],
+    "reach": {
+      "airport": "Cochin International Airport (COK, ~110 km / 3.5 hrs via NH85)",
+      "railway": "Aluva (AWY, ~110 km) or Ernakulam Junction (ERS, ~130 km)",
+      "local": "Hired tourist taxis, auto-rickshaws, 4WD jeeps for high-altitude spots like Kolukkumalai"
+    },
+    "budget": {
+      "stay": 6500,
+      "food": 3500,
+      "transport": 3000,
+      "activities": 2000
+    },
+    "tips": [
+      "Eravikulam Park: Closed annually for ~60 days (Feb to March/early April) for Nilgiri Tahr calving; book online.",
+      "Tea Museum: KDHP Tea Museum at Nullatanni is closed on Mondays.",
+      "Winter Chill: Temperatures dip below 10°C (near 0°C at Kolukkumalai) in Dec–Jan; pack warm layers.",
+      "Ghat Driving: Mountain roads are subject to thick fog; avoid late-night driving."
+    ],
+    "days": [
+      {
+        "title": "Tea Country & KDHP Museum",
+        "morning": "Scenic drive up the misty Western Ghats via Neriamangalam; check into your tea-estate stay.",
+        "afternoon": "Tour the KDHP Tea Museum at Nullatanni; observe orthodox tea processing from leaf to packet.",
+        "evening": "Walk through emerald tea garden slopes; warm up with freshly brewed estate tea by the fireplace."
+      },
+      {
+        "title": "Eravikulam & Mattupetty Dam",
+        "morning": "Board the forest eco-bus at Eravikulam National Park (Rajamalai) to spot the endangered Nilgiri Tahr.",
+        "afternoon": "Stop at Mattupetty Dam for speed-boating, followed by the fun acoustic reverberations of Echo Point.",
+        "evening": "Enjoy a serene pedal-boat ride at Kundala Lake amidst Kashmiri shikaras and tea-covered shores."
+      },
+      {
+        "title": "Top Station & High Vistas",
+        "morning": "Ascend to Top Station viewpoint (1,880 m) on the Kerala-Tamil Nadu border before morning mist rolls in.",
+        "afternoon": "Pause at panoramic viewpoints along the route; sample roasted spiced corn and homemade chocolates.",
+        "evening": "Browse Munnar town market for eucalyptus oil, organic green cardamom, clove, and fresh pepper."
+      },
+      {
+        "title": "Kolukkumalai 4x4 Off-Road Sunrise",
+        "morning": "Take a rugged early 4WD jeep ride up to Kolukkumalai (7,130 ft), the highest tea plantation in the world.",
+        "afternoon": "Tour the heritage 1930s wood-and-roller tea factory; sample delicate floral single-origin black teas.",
+        "evening": "Descend to Munnar; enjoy a traditional Kerala Sadhya dinner served on a fresh banana leaf."
+      },
+      {
+        "title": "Marayoor Sandalwood & Waterfalls",
+        "morning": "Drive through the fragrant natural sandalwood forest of Marayoor; see Neolithic dolmens (Muniyaras).",
+        "afternoon": "Stop by the roaring cascade of Cheeyappara Waterfalls tumbling down in seven distinct tiers.",
+        "evening": "Scenic drive down through the rubber plantations towards Cochin Airport for your evening flight."
+      }
+    ],
+    "coords": {
+      "lat": 10.0889,
+      "lon": 77.0595
+    }
+  },
+  {
+    "id": "coorg",
+    "name": "Coorg",
+    "where": "Karnataka, India",
+    "type": "hills",
+    "season": [
+      9,
+      10,
+      11,
+      0,
+      1,
+      2
+    ],
+    "seasonText": "Oct to Mar",
+    "nights": 3,
+    "price": 14000,
+    "blurb": "Coffee estates, waterfalls and misty ridges, an easy drive from Bengaluru.",
+    "sc": [
+      "hills",
+      [
+        "#D4E4C9",
+        "#F7EED2",
+        "#FFD98A",
+        "#6C8F5A",
+        "#3F6B3A",
+        "#4A6F37"
+      ]
+    ],
+    "reach": {
+      "airport": "Kannur Intl (CNN, ~90 km), Mangaluru (IXE, ~140 km), or Bengaluru (BLR, ~285 km)",
+      "railway": "Mysuru Junction (MYS, ~120 km) or Hassan (HAS, ~115 km)",
+      "local": "Hired private cars, local KSRTC buses, 4x4 jeeps for Mandalpatti peak"
+    },
+    "budget": {
+      "stay": 6000,
+      "food": 3500,
+      "transport": 2700,
+      "activities": 1800
+    },
+    "tips": [
+      "Dubare Camp: Elephant bathing and feeding runs strictly 9:00 AM to 11:00 AM; river crossing subject to water level.",
+      "Namdroling Monastery: Maintain silence in prayer halls during monk chanting sessions; remove footwear.",
+      "Rainforest Leeches: Common around Abbey and Iruppu falls during and right after monsoon; wear proper footwear.",
+      "Coffee Harvest: Coffee blossom season is March–April; berry harvest takes place December to February."
+    ],
+    "days": [
+      {
+        "title": "Abbey Falls & Coffee Walk",
+        "morning": "Drive into Kodagu through coffee-scented valleys; check into a heritage planter’s estate homestay.",
+        "afternoon": "Walk down to Abbey Falls, roaring through dense coffee shrubs and pepper vines.",
+        "evening": "Take a guided estate plantation walk learning about Arabica and Robusta beans, vanilla, and spices."
+      },
+      {
+        "title": "Dubare Elephants & Bylakuppe",
+        "morning": "Cross the Cauvery River to Dubare Elephant Camp for the morning bathing and feeding interaction (9–11 AM).",
+        "afternoon": "Head to Bylakuppe, the largest Tibetan settlement in South India, and visit the serene Namdroling Monastery.",
+        "evening": "Spin Buddhist prayer wheels, listen to monks chanting, and taste authentic Tibetan steamed momos."
+      },
+      {
+        "title": "Talakaveri & Raja’s Seat",
+        "morning": "Drive to Talakaveri on Brahmagiri Hills, sacred origin of River Cauvery; climb Brahmagiri peak steps.",
+        "afternoon": "Tour historic Madikeri Fort, the palace museum, and the Gothic-style St. Mark’s Church.",
+        "evening": "Gather at Raja’s Seat garden to watch the sun drop behind mist-draped rolling valleys."
+      },
+      {
+        "title": "Mandalpatti 4x4 Viewpoint",
+        "morning": "Board an open 4WD jeep for a rugged climb through misty grassland trails to Mandalpatti peak.",
+        "afternoon": "Enjoy breathtaking 360-degree vistas across Pushpagiri Wildlife Sanctuary.",
+        "evening": "Sample authentic Kodava cuisine: spicy Pandi curry, Kadambuttu (rice dumplings), and bamboo shoot curry."
+      },
+      {
+        "title": "Iruppu Falls & Estate Shopping",
+        "morning": "Journey to sacred Iruppu Falls nestled in the Brahmagiri forest; dip your feet in cool mountain waters.",
+        "afternoon": "Explore the fringe forest roads near Nagarhole, watching for chital deer and peacocks.",
+        "evening": "Pick up Coorg wild honey, homemade artisanal chocolates, and freshly roasted estate coffee before departure."
+      }
+    ],
+    "coords": {
+      "lat": 12.4244,
+      "lon": 75.7382
+    }
+  },
+  {
+    "id": "hampi",
+    "name": "Hampi",
+    "where": "Karnataka, India",
+    "type": "culture",
+    "season": [
+      9,
+      10,
+      11,
+      0,
+      1
+    ],
+    "seasonText": "Oct to Feb",
+    "nights": 3,
+    "price": 11000,
+    "blurb": "Dramatic boulder hills and the majestic ruins of the Vijayanagara Empire.",
+    "sc": [
+      "culture",
+      [
+        "#F6B98A",
+        "#FFE6B8",
+        "#FFD26A",
+        "#B5683F",
+        "#8E4B2B",
+        "#C47B49"
+      ]
+    ],
+    "reach": {
+      "airport": "Jindal Vidyanagar Airport (VDY, ~35 km) or Hubballi (HBX, ~140 km)",
+      "railway": "Hosapete Junction (HPT, ~13 km from Hampi Bazaar)",
+      "local": "Rented bicycles, scooters/mopeds, auto-rickshaws, licensed coracle ferries"
+    },
+    "budget": {
+      "stay": 4500,
+      "food": 2700,
+      "transport": 2000,
+      "activities": 1800
+    },
+    "tips": [
+      "Scorching Summer: March to June exceeds 38°C with bare rock radiation; winter (Nov–Jan) is ideal.",
+      "ASI Protection: Tapping or touching musical pillars at Vittala Temple is strictly prohibited.",
+      "Footwear: Extensive walking on uneven rock terrain; wear sturdy walking shoes with good grip.",
+      "Coracles: Wearing police-approved life jackets is strictly mandatory on Tungabhadra river crossings."
+    ],
+    "days": [
+      {
+        "title": "Virupaksha & Sacred Centre",
+        "morning": "Arrive via Hosapete Junction; check into a boulder-view retreat near Hampi Bazaar.",
+        "afternoon": "Visit the 7th-century active Virupaksha Temple, Kadalekalu Ganesha, and Sasivekalu Ganesha.",
+        "evening": "Walk down the colonnaded Hampi Bazaar and watch sunset from Hemakuta Hill’s cluster of ancient shrines."
+      },
+      {
+        "title": "Vittala Temple & Royal Enclosure",
+        "morning": "Marvel at the iconic Stone Chariot and the intricate pillared hall at the Vittala Temple Complex.",
+        "afternoon": "Take an eco-buggy back, then explore the Queen’s Bath, Lotus Mahal, and the vaulted Elephant Stables.",
+        "evening": "Take a traditional round coracle boat ride on the Tungabhadra River, navigating granite boulder rapids."
+      },
+      {
+        "title": "Matanga Hill Dawn & Achyutaraya",
+        "morning": "Dawn hike up Matanga Hill for a panoramic 360-degree sunrise view over the vast ruined imperial capital.",
+        "afternoon": "Descend through the historic Courtesan’s Street to the evocative, peaceful Achyutaraya Temple ruins.",
+        "evening": "Relax at a riverside garden cafe across the river; enjoy fresh South Indian and Mediterranean thalis."
+      },
+      {
+        "title": "Anegundi & Sanapur Lake",
+        "morning": "Cross over to ancient Anegundi, legendary monkey kingdom of Kishkindha.",
+        "afternoon": "Climb the white steps of Anjaneya Hill (Hanuman’s birthplace); enjoy the tranquil waters of Sanapur Lake.",
+        "evening": "Try introductory bouldering with local climbing guides or unwind with a sunset coracle glide."
+      },
+      {
+        "title": "Pattabhirama & Daroji Bear Sanctuary",
+        "morning": "Visit the grand Pattabhirama Temple and the ASI Archaeological Museum at Kamalapura.",
+        "afternoon": "Drive to Daroji Sloth Bear Sanctuary to observe sloth bears foraging on rocky hills from the watchtower.",
+        "evening": "Final heritage stroll along the Tungabhadra riverbank before catching your night train from Hosapete."
+      }
+    ],
+    "coords": {
+      "lat": 15.335,
+      "lon": 76.46
+    }
+  },
+  {
+    "id": "alleppey",
+    "name": "Alleppey (Alappuzha)",
+    "where": "Kerala, India",
+    "type": "backwaters",
+    "season": [
+      9,
+      10,
+      11,
+      0,
+      1,
+      2
+    ],
+    "seasonText": "Oct to Mar",
+    "nights": 2,
+    "price": 14000,
+    "blurb": "Venice of the East with endless palm-lined canals, houseboats and below-sea-level paddy fields.",
+    "sc": [
+      "backwaters",
+      [
+        "#A0E2DC",
+        "#F3F8E4",
+        "#FFCA65",
+        "#186E64",
+        "#8B5A2B",
+        "#0E7C7B"
+      ]
+    ],
+    "reach": {
+      "airport": "Cochin International Airport (COK, ~85 km / 2.5 hrs)",
+      "railway": "Alappuzha Railway Station (ALLP, ~3 km from town boat jetty)",
+      "local": "Auto-rickshaws, KSWTD public scenic water ferries (₹10–40), private motor shikaras, houseboats"
+    },
+    "budget": {
+      "stay": 6500,
+      "food": 3000,
+      "transport": 2500,
+      "activities": 2000
+    },
+    "tips": [
+      "Houseboat Law: Kerala tourism rules require all houseboats to anchor by 5:30 PM for fishermen nets; cruising resumes 8:00 AM.",
+      "Air Conditioning: In standard deluxe houseboats, AC runs 9:00 PM to 6:00 AM in bedrooms; book luxury for 24-hr salon AC.",
+      "Nehru Trophy: The famous snake boat race is held on Punnamada Lake on the 2nd Saturday of August.",
+      "Certification: Choose DTPC-accredited houseboats (Gold or Green leaf emblems) for verified waste safety."
+    ],
+    "days": [
+      {
+        "title": "Boarding Kettuvallam & Lake Vembanad",
+        "morning": "Arrive in Alleppey; transfer to Punnamada Jetty to board your private thatched houseboat (Kettuvallam).",
+        "afternoon": "Cruise through palm-fringed backwaters while chefs prepare authentic Karimeen Pollichathu (pearl spot fish).",
+        "evening": "Boat anchors at 5:30 PM by peaceful village banks; take an evening stroll along lush paddy dykes."
+      },
+      {
+        "title": "Kuttanad Canals & Country Canoe",
+        "morning": "Watch village life awaken over breakfast as your boat glides past duck farms and lotus clusters.",
+        "afternoon": "Switch to a narrow wooden country canoe to explore interior village canals inaccessible to big boats.",
+        "evening": "Visit the historic 11th-century Karumadi Kuttan Buddha statue; catch sunset over Marari Beach."
+      },
+      {
+        "title": "Alleppey Lighthouse & Coir Heritage",
+        "morning": "Tour the International Coir Museum to discover how coconut husk is woven into golden carpets and ropes.",
+        "afternoon": "Climb the 1862 Alleppey Lighthouse for panoramic views over the Arabian coastline and historic pier.",
+        "evening": "Walk the historic Alleppey Beach pier at sunset, savouring hot banana fritters and spiced tea."
+      },
+      {
+        "title": "Pathiramanal Island & Village Cycling",
+        "morning": "Rent a bicycle to ride along quiet coastal village paths between backwaters and the sea.",
+        "afternoon": "Take a boat to emerald Pathiramanal Island (Sands of Midnight) to observe migratory water birds.",
+        "evening": "Dine on Malabar parotta, appams, and creamy vegetable stew under lantern-lit palm trees."
+      },
+      {
+        "title": "Champakulam Church & Departure",
+        "morning": "Visit Champakulam Kalloorkadu St. Mary’s Forane Church, established in 427 CE on the riverbank.",
+        "afternoon": "See the prized 130-foot racing snake boats (Chundan Vallam) housed in traditional village sheds.",
+        "evening": "Scenic drive along NH66 back towards Cochin International Airport for your connecting flight."
+      }
+    ],
+    "coords": {
+      "lat": 9.4981,
+      "lon": 76.3388
+    }
+  },
+  {
+    "id": "kochi",
+    "name": "Kochi (Fort Kochi)",
+    "where": "Kerala, India",
+    "type": "culture",
+    "season": [
+      9,
+      10,
+      11,
+      0,
+      1,
+      2
+    ],
+    "seasonText": "Oct to Mar",
+    "nights": 3,
+    "price": 13500,
+    "blurb": "Chinese fishing nets, spice warehouses, colonial churches and lively contemporary art.",
+    "sc": [
+      "culture",
+      [
+        "#E0D2BC",
+        "#FFF2DA",
+        "#FFA45B",
+        "#8C5E3A",
+        "#B27B50",
+        "#4F6D7A"
+      ]
+    ],
+    "reach": {
+      "airport": "Cochin International Airport (COK, ~40 km / 1 hr 15 min)",
+      "railway": "Ernakulam Junction (ERS) or Ernakulam Town (ERN)",
+      "local": "Kochi Water Metro (AC electric catamarans), Ro-Ro vehicle ferries, rental cycles, auto-rickshaws"
+    },
+    "budget": {
+      "stay": 6000,
+      "food": 3500,
+      "transport": 2200,
+      "activities": 1800
+    },
+    "tips": [
+      "Closures: Mattancherry Dutch Palace is closed Fridays. Paradesi Synagogue is closed Fridays, Saturdays and Jewish holidays.",
+      "Synagogue Attire: Modest dress required (shoulders and knees covered); shoes must be deposited at entrance.",
+      "Kochi Biennale: The prestigious art biennale runs every two years (Dec to April) across heritage warehouses.",
+      "Kathakali Makeup: Arrive at Kerala Kathakali Centre by 5:00 PM to witness the artists applying natural mineral face makeup."
+    ],
+    "days": [
+      {
+        "title": "Chinese Nets & Colonial Ramparts",
+        "morning": "Arrive at Cochin Airport; take the electric Kochi Water Metro or drive to your heritage Fort Kochi stay.",
+        "afternoon": "Walk along Vasco da Gama Square to watch fishermen operate the colossal cantilevered Chinese Fishing Nets.",
+        "evening": "Visit St. Francis Church, India’s oldest European church where Vasco da Gama was first buried in 1524."
+      },
+      {
+        "title": "Jew Town, Synagogue & Dutch Palace",
+        "morning": "Explore the antique spice godowns of Jew Town and visit the 1568 Paradesi Synagogue with Belgian glass chandeliers.",
+        "afternoon": "Tour Mattancherry Palace (Dutch Palace) to admire the vibrant 16th-century Ramayana mythological murals.",
+        "evening": "Attend an evening classical Kathakali dance-drama at Kerala Kathakali Centre; arrive early for makeup."
+      },
+      {
+        "title": "Spice Markets & Marine Drive",
+        "morning": "Walk through the aromatic ginger and pepper trading warehouses of Mattancherry bazaar.",
+        "afternoon": "Take a harbor ferry across to Ernakulam mainland; stroll along the modern waterfront Marine Drive promenade.",
+        "evening": "Enjoy a rooftop seafood dinner overlooking the illuminated container ships moving along Cochin port."
+      },
+      {
+        "title": "Kumbalangi Eco-Village",
+        "morning": "Visit Kumbalangi Model Tourism Village to experience traditional crab farming, coir spinning, and palm weaving.",
+        "afternoon": "Glide silently through tranquil mangrove passages in country canoes; taste fresh coconut water and local snacks.",
+        "evening": "Watch Chinese fishing net silhouettes glow against a fiery orange sunset over the backwater estuary."
+      },
+      {
+        "title": "Hill Palace & Kerala Folklore Museum",
+        "morning": "Visit the Kerala Folklore Museum in Thevara, showcasing 4,000 architectural wonders and wooden temple masks.",
+        "afternoon": "Tour the sprawling Hill Palace Museum in Tripunithura, former administrative palace of the Maharaja of Cochin.",
+        "evening": "Pick up freshly fried hot banana chips, whole cardamom, and vanilla beans before heading to Cochin Airport."
+      }
+    ],
+    "coords": {
+      "lat": 9.9658,
+      "lon": 76.2421
+    }
+  },
+  {
+    "id": "thekkady",
+    "name": "Thekkady (Periyar)",
+    "where": "Idukki, Kerala, India",
+    "type": "wildlife",
+    "season": [
+      8,
+      9,
+      10,
+      11,
+      0,
+      1,
+      2
+    ],
+    "seasonText": "Sep to Mar",
+    "nights": 3,
+    "price": 13000,
+    "blurb": "Periyar tiger reserve, lake safaris, wild elephant herds and cool cardamom hills.",
+    "sc": [
+      "wildlife",
+      [
+        "#B7E4C7",
+        "#D8F3DC",
+        "#FFB703",
+        "#2D6A4F",
+        "#1B4332",
+        "#176063"
+      ]
+    ],
+    "reach": {
+      "airport": "Madurai Airport (IXM, ~140 km) or Cochin International (COK, ~160 km)",
+      "railway": "Kottayam Railway Station (KTYM, ~110 km) or Madurai (140 km)",
+      "local": "Forest eco-tourism shuttle buses, hired jeeps, local auto-rickshaws in Kumily town"
+    },
+    "budget": {
+      "stay": 5500,
+      "food": 3200,
+      "transport": 2300,
+      "activities": 2000
+    },
+    "tips": [
+      "Safari Booking: KTDC Lake boat safari tickets must be booked online weeks ahead on periyartigerreserve.org.",
+      "Clothing: Wear neutral earthy tones (khakis, greens, browns); loud music, flash photography, and plastic are banned.",
+      "Bamboo Rafting: Requires moderate physical fitness and prior forest department booking; includes guided forest trek.",
+      "Spice Shopping: Buy certified Grade-A green cardamom and black pepper from Sahyadri or Spices Board outlets in Kumily."
+    ],
+    "days": [
+      {
+        "title": "Arrival in Kumily & Spice Tour",
+        "morning": "Drive up winding cardamom-scented hills into Kumily; check into a jungle retreat near Periyar gate.",
+        "afternoon": "Take a guided walking tour through an organic spice garden, identifying wild cinnamon, clove, and nutmeg.",
+        "evening": "Watch an exhilarating Kalaripayattu ancient martial arts duel at the Kadathanadan Kalari Centre."
+      },
+      {
+        "title": "Periyar Lake Boat Safari",
+        "morning": "Board the early morning KTDC boat safari on Periyar Lake; spot wild elephant herds and sambar deer on the banks.",
+        "afternoon": "Join an interpretive Nature Walk along the perimeter of the evergreen jungle with a trained tribal tracker.",
+        "evening": "Enjoy a hearty Kerala meal featuring aromatic spices and freshly harvested garden vegetables."
+      },
+      {
+        "title": "Full-Day Bamboo Rafting Expedition",
+        "morning": "Start the Bamboo Rafting eco-trek through moist deciduous forest into the core tiger reserve habitat.",
+        "afternoon": "Paddle quietly on bamboo rafts across the deep forested reaches of the lake with a packed jungle lunch.",
+        "evening": "Return to Kumily town; unwind with a soothing herbal oil Abhyanga Ayurvedic rejuvenation massage."
+      },
+      {
+        "title": "Chellarkovil & Pandikuzhi Vistas",
+        "morning": "Drive to Chellarkovil, perched on Kerala’s eastern edge with stunning views looking down on the plains of Tamil Nadu.",
+        "afternoon": "Walk through mountain stream cascades and organic farm valleys at picturesque Pandikuzhi.",
+        "evening": "Shop for fresh cardamom, nutmeg, cinnamon quills, and wild stingless bee honey in Kumily market."
+      },
+      {
+        "title": "Gavi Wilderness Safari & Departure",
+        "morning": "Dawn 4WD jeep excursion into the pristine, misty evergreen rainforests of Gavi, home to lion-tailed macaques.",
+        "afternoon": "Canoe quietly across Gavi lake and visit the historic cardamom curing house nestled deep in the forest.",
+        "evening": "Descend through the scenic tea-clad mountain ghats towards Kottayam or Madurai for your onward train or flight."
+      }
+    ],
+    "coords": {
+      "lat": 9.6031,
+      "lon": 77.1665
+    }
+  },
+  {
+    "id": "wayanad",
+    "name": "Wayanad",
+    "where": "Kerala, India",
+    "type": "hills",
+    "season": [
+      9,
+      10,
+      11,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "seasonText": "Oct to May",
+    "nights": 3,
+    "price": 14500,
+    "blurb": "Mist-clad Western Ghats, prehistoric petroglyphs, earth dams and wildlife sanctuaries.",
+    "sc": [
+      "hills",
+      [
+        "#CCE3DE",
+        "#EAF4F4",
+        "#FFEAA7",
+        "#52796F",
+        "#2F3E46",
+        "#355070"
+      ]
+    ],
+    "reach": {
+      "airport": "Calicut Intl Airport (CCJ, ~95 km) or Kannur Intl (CNN, ~90 km)",
+      "railway": "Kozhikode Railway Station (CLT, ~80 km via scenic Thamarassery Churam ghat)",
+      "local": "Rented taxis, 4x4 jeeps for rugged plantation and viewpoint tracks, KSRTC mountain buses"
+    },
+    "budget": {
+      "stay": 6500,
+      "food": 3500,
+      "transport": 2700,
+      "activities": 1800
+    },
+    "tips": [
+      "Edakkal Caves: Closed on Mondays. Daily entry is capped at 1,920 visitors; arrive by 8:30 AM to secure entry tickets.",
+      "Chembra Peak: Trek to heart-shaped lake requires early morning forest clearance at Meppadi (daily cap of 200 passes).",
+      "Night Ghat Ban: Vehicle transit through Bandipur/Muthanga borders is closed 9:00 PM to 6:00 AM to protect wild animals.",
+      "Heavy Rains: Southwest monsoon (June–Aug) brings intense downpours; check for temporary trail alerts."
+    ],
+    "days": [
+      {
+        "title": "Thamarassery Churam & Pookode Lake",
+        "morning": "Ascend the dramatic 9 hairpin bends of Thamarassery Ghat; check into a misty treehouse resort in Vythiri.",
+        "afternoon": "Visit freshwater Pookode Lake ringed by evergreen forests; pedal boat amongst blue water lilies.",
+        "evening": "Drive up to Lakkidi View Point to watch evening clouds roll over the deep Thamarassery mountain valley."
+      },
+      {
+        "title": "Edakkal Caves & Heritage Museum",
+        "morning": "Climb the stone path to Edakkal Caves to examine prehistoric petroglyphs carved into granite dating to 6000 BCE.",
+        "afternoon": "Tour the Wayanad Heritage Museum at Ambalavayal, housing ancient tribal terracotta, hero stones, and weaponry.",
+        "evening": "Savor bamboo-steamed puttu with spicy Kadala curry and warm spiced ginger tea at a mountain cafe."
+      },
+      {
+        "title": "Banasura Sagar Dam & Karlad Lake",
+        "morning": "Visit Banasura Sagar Dam, India’s largest earthen dam; take an exhilarating speedboat ride across the reservoir.",
+        "afternoon": "Zipline across Karlad Lake and try bamboo kayaking along the tranquil water’s edge.",
+        "evening": "Walk through the tea gardens of Pozhuthana and watch sunset from the Kurumbalakotta viewpoint."
+      },
+      {
+        "title": "Chembra Peak Heart Lake Trek",
+        "morning": "Obtain early forest permits at Meppadi for the trek through tea estates up to Chembra’s heart-shaped lake.",
+        "afternoon": "Relax beside the mist-enshrouded lake Hridaya Saras, enjoying panoramic views across Nilgiri mountains.",
+        "evening": "Return for an authentic campfire dinner with grilled river fish and steamed tapioca."
+      },
+      {
+        "title": "Muthanga Sanctuary & Kuruva Island",
+        "morning": "Dawn jeep safari through Wayanad Wildlife Sanctuary at Muthanga; look for spotted deer, gaurs, and wild elephants.",
+        "afternoon": "Walk on bamboo bridges through the river delta islands of Kuruva Dweep on the Kabini River.",
+        "evening": "Drive down the Western Ghats towards Kozhikode (Calicut) Railway Station or Airport for departure."
+      }
+    ],
+    "coords": {
+      "lat": 11.6103,
+      "lon": 76.0827
+    }
+  },
+  {
+    "id": "varkala",
+    "name": "Varkala",
+    "where": "Thiruvananthapuram, Kerala, India",
+    "type": "beach",
+    "season": [
+      9,
+      10,
+      11,
+      0,
+      1,
+      2
+    ],
+    "seasonText": "Oct to Mar",
+    "nights": 3,
+    "price": 12500,
+    "blurb": "Dramatic red laterite cliffs towering over the Arabian Sea, holy mineral springs and clifftop cafes.",
+    "sc": [
+      "beach",
+      [
+        "#FFDDD2",
+        "#FEEFE8",
+        "#FF9F1C",
+        "#BF4E30",
+        "#E29578",
+        "#006D77"
+      ]
+    ],
+    "reach": {
+      "airport": "Thiruvananthapuram Intl Airport (TRV, ~42 km / 1 hr 15 min)",
+      "railway": "Varkala Sivagiri Railway Station (VAK, ~3 km from North Cliff)",
+      "local": "Auto-rickshaws, rental scooters, walking along the pedestrian-friendly cliff promenade"
+    },
+    "budget": {
+      "stay": 5500,
+      "food": 3200,
+      "transport": 2000,
+      "activities": 1800
+    },
+    "tips": [
+      "Cliff Edge Safety: The red laterite cliff edge is fragile and actively eroding; strictly follow barricaded pathways.",
+      "Rip Currents: Papanasam Beach has powerful undertows; swim only where lifeguard flags permit.",
+      "Temple Attire: Janardhana Swamy Temple requires traditional clothing (dhoti for men; bare torso inside sanctum).",
+      "Sunset Seating: North Cliff cafes fill up fast for sunset; grab an oceanfront table by 5:15 PM."
+    ],
+    "days": [
+      {
+        "title": "North Cliff & Papanasam Sunset",
+        "morning": "Arrive via Varkala Sivagiri station or Trivandrum airport; check into a clifftop boutique stay.",
+        "afternoon": "Stroll along the paved North Cliff promenade, perched high above the beach with vibrant cafes and craft stalls.",
+        "evening": "Walk down to Papanasam Beach, famed for natural mineral springs believed to cleanse sins; dine at a clifftop cafe."
+      },
+      {
+        "title": "Janardhana Swamy & Black Sand",
+        "morning": "Visit the 2,000-year-old Janardhana Swamy Temple, a historic Vishnu shrine with an ancient Dutch brass bell.",
+        "afternoon": "Walk along the quiet shoreline north to Odayam and Black Sand Beach, away from the bustling main cliff.",
+        "evening": "Join an outdoor sunset yoga session overlooking the Arabian Sea, followed by fresh fruit smoothie bowls."
+      },
+      {
+        "title": "Kappil Beach & Backwater Estuary",
+        "morning": "Rent a scooter or take an auto 7 km north to Kappil Beach, where the backwaters meet the sea across a narrow road.",
+        "afternoon": "Take a gentle motorboat or canoe ride on the calm waters of Edava-Nadayara Lake.",
+        "evening": "Hike up to the cliff of Kodi Hills for a spectacular aerial perspective of the sea-backwater confluence."
+      },
+      {
+        "title": "Anjengo Fort & Golden Island",
+        "morning": "Visit the historic 17th-century East India Company outpost at Anjengo (Anchuthengu) Fort and Lighthouse.",
+        "afternoon": "Board a country boat to Ponnumthuruthu (Golden Island), home to an ancient Shiva-Parvati shrine amidst mangroves.",
+        "evening": "Feast on wood-fired oven pizza, tandoori tiger prawns, and iced coconut latte at a cliffside shack."
+      },
+      {
+        "title": "Sivagiri Mutt & Wellness Departure",
+        "morning": "Visit Sivagiri Mutt, the tranquil final resting place and headquarters of Kerala social reformer Sree Narayana Guru.",
+        "afternoon": "Enjoy a rejuvenating Kerala Ayurvedic herbal steam bath and Shirodhara oil treatment.",
+        "evening": "Final leisurely cliff stroll to buy handmade Tibetan jewelry before your transfer to Trivandrum Airport."
+      }
+    ],
+    "coords": {
+      "lat": 8.7379,
+      "lon": 76.7163
+    }
+  },
+  {
+    "id": "kovalam",
+    "name": "Kovalam",
+    "where": "Thiruvananthapuram, Kerala, India",
+    "type": "beach",
+    "season": [
+      8,
+      9,
+      10,
+      11,
+      0,
+      1,
+      2
+    ],
+    "seasonText": "Sep to Mar",
+    "nights": 3,
+    "price": 15000,
+    "blurb": "Iconic striped lighthouse, three sheltered crescent beaches, and world-renowned Ayurvedic healing.",
+    "sc": [
+      "beach",
+      [
+        "#BEE1E6",
+        "#F0EFEB",
+        "#F77F00",
+        "#0077B6",
+        "#E5989B",
+        "#023E8A"
+      ]
+    ],
+    "reach": {
+      "airport": "Thiruvananthapuram Intl Airport (TRV, ~14 km / 25 min)",
+      "railway": "Thiruvananthapuram Central (TVC, ~13 km)",
+      "local": "Prepaid taxis, auto-rickshaws, city buses to East Fort (Padmanabhaswamy Temple)"
+    },
+    "budget": {
+      "stay": 7000,
+      "food": 3800,
+      "transport": 2200,
+      "activities": 2000
+    },
+    "tips": [
+      "Lighthouse Timings: Vizhinjam Lighthouse is open to visitors 3:00 PM to 5:00 PM daily (closed on Mondays); elevator available.",
+      "Beach Zones: Lighthouse Beach is lively with cafes; Hawah Beach has morning fishermen; Samudra Beach is quiet and upscale.",
+      "Ayurveda: Choose centers accredited with Green Leaf or Olive Leaf certification by Kerala Tourism.",
+      "Padmanabhaswamy: Strictly enforces traditional dress codes (dhoti for men, sarees for women; phones strictly banned)."
+    ],
+    "days": [
+      {
+        "title": "Lighthouse Beach & Tower View",
+        "morning": "Short 25-minute drive from Trivandrum Airport; check in at your coastal resort facing the crescent bay.",
+        "afternoon": "Relax on the golden sands of Lighthouse Beach; climb the 142 steps (or elevator) of Vizhinjam Lighthouse.",
+        "evening": "Dine at beachside promenade restaurants serving freshly caught red snapper and Kerala parottas."
+      },
+      {
+        "title": "Hawah Beach & Ayurvedic Care",
+        "morning": "Watch traditional fishermen haul in shore seine nets at Hawah Beach (Eve’s Beach) in early morning sunlight.",
+        "afternoon": "Indulge in an authentic 90-minute Ayurvedic massage and herbal body polish at a Green Leaf certified center.",
+        "evening": "Walk the quiet palm groves of Samudra Beach; view the heritage facade of Halcyon Castle at sunset."
+      },
+      {
+        "title": "Vizhinjam Harbor & Poovar Estuary",
+        "morning": "Tour Vizhinjam fishing harbour and visit the marine aquarium housing rare pearl oysters and clownfish.",
+        "afternoon": "Take an excursion south to Poovar Island; cruise on a motorized country craft through lush floating mangrove canals.",
+        "evening": "Stand on Poovar’s golden sandspit where the Neyyar River meets the sea; watch sunset over the Arabian Sea."
+      },
+      {
+        "title": "Trivandrum Cultural Heritage",
+        "morning": "Short drive into Thiruvananthapuram; marvel at the Dravidian gopuram of Sree Padmanabhaswamy Temple.",
+        "afternoon": "Explore Kuthira Malika (Mansion of Horses) and the Napier Museum with its Indo-Saracenic timber architecture.",
+        "evening": "Enjoy filter coffee and hot crisp medu vada at the iconic spiral Indian Coffee House near the central station."
+      },
+      {
+        "title": "Catamaran Sailing & Farewell",
+        "morning": "Experience thrilling traditional catamaran sailing with local Kovalam boatmen across coastal swells.",
+        "afternoon": "Shop for hand-woven Balrampuram sarees, rosewood elephant carvings, and aromatic spice packets.",
+        "evening": "Sunset cocktail overlooking the ocean before an effortless 20-minute transfer back to Trivandrum Airport."
+      }
+    ],
+    "coords": {
+      "lat": 8.4004,
+      "lon": 76.9787
+    }
+  },
+  {
+    "id": "athirappilly",
+    "name": "Athirappilly",
+    "where": "Thrissur, Kerala, India",
+    "type": "waterfalls",
+    "season": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      0
+    ],
+    "seasonText": "Jun to Jan",
+    "nights": 2,
+    "price": 9500,
+    "blurb": "The dramatic \"Niagara of South India\", cascading 80 feet through lush Sholayar rainforest.",
+    "sc": [
+      "waterfalls",
+      [
+        "#CBE8F5",
+        "#E6F5FA",
+        "#FFD166",
+        "#2A6F68",
+        "#1B4D47",
+        "#157F83"
+      ]
+    ],
+    "reach": {
+      "airport": "Cochin International Airport (COK, ~40 km / 1 hr 15 min - closest hill retreat from airport)",
+      "railway": "Chalakudy Railway Station (CKI, ~31 km) or Angamaly (AFK, ~35 km)",
+      "local": "Private hired taxis from Chalakudy or Kochi, KSRTC buses running to Malakkappara"
+    },
+    "budget": {
+      "stay": 4200,
+      "food": 2200,
+      "transport": 1800,
+      "activities": 1300
+    },
+    "tips": [
+      "Monsoon Flow: Peak thundering flow is June to October; winter months (Nov–Jan) offer clear spray and gentle trekking.",
+      "Plastic-Free: Strict zero-plastic zone enforced at the forest gate; reusable bottles tagged with refundable deposit.",
+      "Base Trek: Pathway down to waterfall base is open 8:00 AM to 5:00 PM; wear slip-resistant shoes for wet mossy stone steps.",
+      "Swimming Warning: Swimming near the bottom of the roaring cascade is strictly banned due to fatal undertows."
+    ],
+    "days": [
+      {
+        "title": "First Glimpse of the Giant Cascade",
+        "morning": "Fly into Cochin Airport (only 40 km away); drive through rubber plantations and Chalakudy river valleys.",
+        "afternoon": "Enter the forest eco-park; walk along the stone path to the upper ledge of the 80-foot Athirappilly Falls.",
+        "evening": "Listen to the thunderous roar echoing through Sholayar rainforest; watch hornbills return to evening roosts."
+      },
+      {
+        "title": "Base Trek & Vazhachal Rapids",
+        "morning": "Hike down the designated forest trail to the very base of the waterfall to feel the cool billowing mist spray.",
+        "afternoon": "Drive 5 km upstream to Vazhachal Falls, admiring foaming river rapids and rare medicinal plant gardens.",
+        "evening": "Visit nearby Charpa Falls cascading right alongside the road, sampling hot forest tea and banana chips."
+      },
+      {
+        "title": "Thumboormuzhy Butterfly Park",
+        "morning": "Visit Thumboormuzhy Dam; walk across the 140-meter pedestrian suspension bridge over the Chalakudy River.",
+        "afternoon": "Walk through the landscaped butterfly garden, observing over 140 species of colourful tropical butterflies.",
+        "evening": "Savor a homely meal of Kerala red rice, fish curry, avial, and spicy mango pickle at a riverside restaurant."
+      },
+      {
+        "title": "Sholayar Rainforest & Hornbills",
+        "morning": "Guided jungle drive into the rainforests of Malakkappara; keep binoculars ready for Great Indian Hornbills.",
+        "afternoon": "Spot Nilgiri langurs, sambar deer, and elephant herds grazing along the tea estates of the higher ranges.",
+        "evening": "Relax by the river pool with local tribal guides sharing folklore about Western Ghats wilderness."
+      },
+      {
+        "title": "Ezhattumugham Nature Village",
+        "morning": "Visit Ezhattumugham Prakriti Gramam, stepping on stone boulders across the scenic check dam.",
+        "afternoon": "Take a final peaceful dip in shallow river streams under dense forest canopy shade.",
+        "evening": "Quick 45-minute drive back to Cochin International Airport for your evening departure."
+      }
+    ],
+    "coords": {
+      "lat": 10.315,
+      "lon": 76.5683
+    }
+  },
+  {
+    "id": "kumarakom",
+    "name": "Kumarakom",
+    "where": "Kottayam, Kerala, India",
+    "type": "backwaters",
+    "season": [
+      8,
+      9,
+      10,
+      11,
+      0,
+      1,
+      2
+    ],
+    "seasonText": "Sep to Mar",
+    "nights": 2,
+    "price": 16500,
+    "blurb": "Tranquil Vembanad lake waters, migratory bird sanctuary, and luxury heritage waterfront resorts.",
+    "sc": [
+      "backwaters",
+      [
+        "#BDE0FE",
+        "#E0FBFC",
+        "#FFB703",
+        "#1D7874",
+        "#673E1B",
+        "#0081A7"
+      ]
+    ],
+    "reach": {
+      "airport": "Cochin International Airport (COK, ~75 km / 2 hrs)",
+      "railway": "Kottayam Railway Station (KTYM, ~15 km / 30 mins)",
+      "local": "Traditional wooden canoes (vallam), motorized water taxis, auto-rickshaws, village bicycles"
+    },
+    "budget": {
+      "stay": 8000,
+      "food": 3700,
+      "transport": 2600,
+      "activities": 2200
+    },
+    "tips": [
+      "Bird Sanctuary: Best birdwatching hours at Kumarakom Sanctuary are 6:00 AM to 9:00 AM; Nov–Feb brings Siberian migrants.",
+      "Pathiramanal: Reach Pathiramanal Island by motorboat or country craft; lovely 1-hour nature walk amidst rare orchids.",
+      "Canoes vs Houseboats: For intimate encounters with narrow canals and coir makers, hire a rowed wooden canoe.",
+      "Mosquito Protection: Carry herbal mosquito repellent for relaxing on lakeside open-air verandas at dusk."
+    ],
+    "days": [
+      {
+        "title": "Lake Vembanad & Sunset Cruise",
+        "morning": "Arrive via Kottayam or Cochin; check into a luxury lakeside resort with heritage villas and private plunge pools.",
+        "afternoon": "Relax on the veranda watching fishermen cast small nets and country craft drift across Lake Vembanad.",
+        "evening": "Embark on a sunset motorboat cruise into the center of the lake; sip fresh tender coconut water as egrets fly past."
+      },
+      {
+        "title": "Bird Sanctuary & Village Life",
+        "morning": "Dawn walk (6:00 AM) through Kumarakom Bird Sanctuary to spot herons, darters, teal, and kingfishers.",
+        "afternoon": "Take a poled wooden country canoe (vallam) through quiet village canals to watch coir spinning and duck farming.",
+        "evening": "Savour a classic Syrian Christian dinner: Duck Roast, appams, spicy beef fry, and tender coconut soufflé."
+      },
+      {
+        "title": "Pathiramanal Island Nature Expedition",
+        "morning": "Motorboat trip across Vembanad to Pathiramanal Island; take a guided walking tour through its untouched jungle trails.",
+        "afternoon": "Visit the Bay Island Driftwood Museum to inspect astonishing root and wood sculptures recovered from sea currents.",
+        "evening": "Watch a traditional flute and tabla performance by the poolside lawn under swaying coconut palms."
+      },
+      {
+        "title": "Paddy Fields of Kuttanad",
+        "morning": "Rent a cruiser bicycle to pedal along narrow bunds between the vast emerald paddy fields of Kuttanad.",
+        "afternoon": "Meet local farmers and learn how farming is sustained below sea level with age-old biosystem canals.",
+        "evening": "Try a rejuvenating Ayurvedic herbal oil massage to relax your muscles."
+      },
+      {
+        "title": "Aymanam Village Heritage & Departure",
+        "morning": "Visit picturesque Aymanam village (setting of Arundhati Roy’s The God of Small Things); walk through ancient tharavadu homes.",
+        "afternoon": "Enjoy a farewell lunch of Karimeen wrapped in banana leaf alongside traditional mango pachadi.",
+        "evening": "Transfer to Kottayam railway station (30 min) or Cochin International Airport (2 hrs) for your journey home."
+      }
+    ],
+    "coords": {
+      "lat": 9.6175,
+      "lon": 76.4301
+    }
+  }
+]
