@@ -1,13 +1,44 @@
 # 🌴 Paradise Travel — Southern India, Season by Season
 
-An interactive, responsive travel web application showcasing 14 curated destinations across Southern India (Kerala, Karnataka, Goa, and the Andaman Islands). Built with modern front-end best practices, asynchronous REST API integration, live weather telemetry, and interactive mapping.
+An interactive, responsive travel web application showcasing 14 curated destinations across Southern India (Kerala, Karnataka, Goa, and the Andaman Islands). Built with **React 18**, **Vite**, **Bootstrap 5**, and modern front-end best practices with asynchronous REST API telemetry and interactive mapping.
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript ES6+](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React 18](https://img.shields.io/badge/React-18.3-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Bootstrap 5](https://img.shields.io/badge/Bootstrap-5.3-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 ![Open--Meteo](https://img.shields.io/badge/API-Open--Meteo-0E7C7B?style=flat-square)
 ![Google Maps](https://img.shields.io/badge/Google-Maps_Embed_API-4285F4?style=flat-square&logo=googlemaps&logoColor=white)
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/paradise-travel.git
+cd paradise-travel
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start local development server
+```bash
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### 4. Build for production
+```bash
+npm run build
+```
+Creates an optimized production bundle in the `dist/` directory.
+
+### 5. Preview production build
+```bash
+npm run preview
+```
 
 ---
 
@@ -50,86 +81,50 @@ An interactive, responsive travel web application showcasing 14 curated destinat
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Architecture
 
 ```
 paradise/
-├── index.html               # Main entry point (optimized for GitHub Pages)
-├── destinations.json        # Asynchronous JSON dataset with coordinates & itineraries
-├── css/
-│   └── style.css            # Responsive styles, CSS custom properties, and dark mode
-├── js/
-│   └── app.js               # Application logic, REST API calls, state & event handlers
-├── .gitignore               # Standard git ignore rules (OS, IDE, temporary files)
-└── README.md                # Project documentation
+├── index.html                   # HTML entry point with #root container
+├── package.json                 # Scripts and project dependencies
+├── vite.config.js               # Vite configuration with React plugin
+├── public/
+│   └── destinations.json        # Static JSON dataset with coordinates & itineraries
+└── src/
+    ├── main.jsx                 # React root render entry
+    ├── App.jsx                  # Main state container and layout coordinator
+    ├── styles/
+    │   └── style.css            # Design tokens, responsive grid, and dark mode
+    ├── utils/
+    │   ├── helpers.js           # Currency formatting (INR) and month constants
+    │   └── weather.js           # Open-Meteo API client and in-memory cache
+    └── components/
+        ├── Navbar.jsx           # Responsive header, theme toggle, mobile drawer
+        ├── Hero.jsx             # Hero headline, artwork, and quick search form
+        ├── SceneArt.jsx         # Procedural SVG landscape generator
+        ├── FilterToolbar.jsx    # Category chips & month filter dropdown
+        ├── DestinationGrid.jsx  # Destination catalog grid & empty state
+        ├── DestinationCard.jsx  # Individual destination card with weather badge
+        ├── MapExplorer.jsx      # Google Maps embed with place-type selector
+        ├── TripPlanner.jsx      # Multi-day itinerary viewer with time slots
+        ├── RichDetails.jsx      # Transit info, budget bars, tips, and calculator
+        ├── CostCalculator.jsx   # Reactive group budget calculator
+        ├── EnquiryForm.jsx      # Asynchronous Formspree POST submission
+        └── ApiLogDrawer.jsx     # Floating REST API network telemetry drawer
 ```
-
----
-
-## 🚀 Getting Started Locally
-
-Because the application loads `destinations.json` via the Fetch API, browsers require an HTTP origin rather than the restricted `file:///` protocol.
-
-### Option 1: Using Python (Recommended)
-In your terminal, navigate to the project directory and run:
-```bash
-python -m http.server 8000
-```
-Open **[http://localhost:8000](http://localhost:8000)** in your browser.
-
-### Option 2: Using Node.js
-```bash
-npx serve .
-```
-
-### Option 3: VS Code / Antigravity IDE
-Install the **Live Server** extension, right-click `index.html`, and select **"Open with Live Server"**.
-
----
-
-## 📤 How to Push to GitHub
-
-Follow these steps to upload this project to your GitHub account:
-
-### Step 1: Initialize Git
-Open PowerShell or your terminal inside the project directory:
-```bash
-git init
-```
-
-### Step 2: Stage and Commit the Files
-```bash
-git add .
-git commit -m "Initial commit: Paradise Travel modular web application"
-```
-
-### Step 3: Link to Your GitHub Repository
-1. Go to [GitHub](https://github.com/new) and create a new repository (e.g., `paradise-travel`).
-2. Do **not** initialize it with a README, .gitignore, or license (we already created them).
-3. Copy the repository URL and run:
-```bash
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-git push -u origin main
-```
-
----
-
-## 🌐 Free Hosting with GitHub Pages
-
-Once pushed to GitHub, you can publish the live website for free in seconds:
-1. In your GitHub repository, go to **Settings** → **Pages** (in the left sidebar).
-2. Under **Build and deployment** → **Source**, select **Deploy from a branch**.
-3. Choose branch **`main`** and folder **`/ (root)`**, then click **Save**.
-4. Within 1–2 minutes, your website will be live at:
-   `https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/`
 
 ---
 
 ## 🛠️ Built With
-- **HTML5 & CSS3** (CSS Variables, Flexbox, CSS Grid)
-- **Vanilla JavaScript (ES6+)** (Fetch API, async/await, IntersectionObserver)
-- **Bootstrap 5.3** (Responsive utilities, Spinners, Toasts, Alerts)
-- **Open-Meteo API** (Free live weather forecasts without API keys)
-- **Google Maps Embed API** (Search mode location explorer)
-- **Formspree** (REST form endpoint)
+
+- **[React 18](https://react.dev/)**: Component-based UI with Hooks (`useState`, `useEffect`, `useCallback`)
+- **[Vite](https://vitejs.dev/)**: Next-generation frontend tooling with instant HMR
+- **[Bootstrap 5](https://getbootstrap.com/)**: Responsive layout utilities, toasts, and spinners
+- **[Open-Meteo](https://open-meteo.com/)**: Free open-source weather API
+- **[Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started)**: Search-mode tourist discovery
+- **Google Fonts**: Bricolage Grotesque, DM Sans, and JetBrains Mono
+
+---
+
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).

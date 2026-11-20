@@ -21,8 +21,11 @@ desktop.ini
 *.tmp
 *.bak
 
-# Node / Environment (if added in future)
+# Build Output & Dependencies
+dist/
+dist-ssr/
 node_modules/
+.vite/
 .env
 .env.local
 
