@@ -14,7 +14,7 @@ An interactive, responsive travel web application showcasing 14 curated destinat
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/paradise-travel.git
+git clone https://github.com/JoelTMathew80/paradise-travel.git
 cd paradise-travel
 ```
 
