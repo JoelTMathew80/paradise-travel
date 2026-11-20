@@ -7,6 +7,7 @@ import { MapExplorer } from './components/MapExplorer';
 import { TripPlanner } from './components/TripPlanner';
 import { EnquiryForm } from './components/EnquiryForm';
 import { ApiLogDrawer } from './components/ApiLogDrawer';
+import { WishlistDrawer } from './components/WishlistDrawer';
 
 let logCounter = 0;
 
@@ -34,6 +35,9 @@ export const App = () => {
       return [];
     }
   });
+
+  // Wishlist Drawer State
+  const [isWishlistOpen, setIsWishlistOpen] = useState(false);
 
   const [selectedDestId, setSelectedDestId] = useState('andaman');
   const [enquiryPrefill, setEnquiryPrefill] = useState(null);
@@ -142,12 +146,13 @@ export const App = () => {
     setShowOnlySaved(false);
   };
 
+  const savedDestinations = destinations.filter((d) => savedDestIds.includes(d.id));
+
   return (
     <>
       <Navbar
         savedCount={savedDestIds.length}
-        isSavedViewActive={showOnlySaved}
-        onToggleSavedView={handleToggleSavedView}
+        onOpenWishlist={() => setIsWishlistOpen(true)}
         currency={currency}
         onCurrencyChange={handleCurrencyChange}
       />
@@ -275,6 +280,17 @@ export const App = () => {
           </div>
         </div>
       </footer>
+
+      {/* Saved Wishlist Drawer */}
+      <WishlistDrawer
+        isOpen={isWishlistOpen}
+        onClose={() => setIsWishlistOpen(false)}
+        savedDestinations={savedDestinations}
+        currency={currency}
+        onRemoveSave={handleToggleSave}
+        onClearAll={() => setSavedDestIds([])}
+        onSelectPlan={handleSelectPlan}
+      />
 
       {/* Real-time REST API Logger Drawer */}
       <ApiLogDrawer logs={apiLogs} onClear={clearApiLogs} />
