@@ -15,10 +15,54 @@ export const App = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [fetchError, setFetchError] = useState(null);
 
+  // Filters & Search
   const [filterState, setFilterState] = useState({ type: 'all', month: 'any' });
+  const [searchQuery, setSearchQuery] = useState('');
+  const [showOnlySaved, setShowOnlySaved] = useState(false);
+
+  // Preferences
+  const [currency, setCurrency] = useState(() => {
+    return localStorage.getItem('paradise_currency') || 'INR';
+  });
+
+  // Wishlist / Saved in localStorage
+  const [savedDestIds, setSavedDestIds] = useState(() => {
+    try {
+      const stored = localStorage.getItem('paradise_saved_trips');
+      return stored ? JSON.parse(stored) : [];
+    } catch {
+      return [];
+    }
+  });
+
   const [selectedDestId, setSelectedDestId] = useState('andaman');
   const [enquiryPrefill, setEnquiryPrefill] = useState(null);
   const [apiLogs, setApiLogs] = useState([]);
+
+  const handleCurrencyChange = (newCurr) => {
+    setCurrency(newCurr);
+    try {
+      localStorage.setItem('paradise_currency', newCurr);
+    } catch {}
+  };
+
+  const handleToggleSave = (destId) => {
+    setSavedDestIds((prev) => {
+      const next = prev.includes(destId)
+        ? prev.filter((id) => id !== destId)
+        : [...prev, destId];
+      try {
+        localStorage.setItem('paradise_saved_trips', JSON.stringify(next));
+      } catch {}
+      return next;
+    });
+  };
+
+  const handleToggleSavedView = () => {
+    setShowOnlySaved((prev) => !prev);
+    const placesEl = document.getElementById('places');
+    if (placesEl) placesEl.scrollIntoView({ behavior: 'smooth' });
+  };
 
   // Telemetry API Logger callback
   const logApiCall = useCallback((method, url, status, durationMs, note = '') => {
@@ -94,11 +138,19 @@ export const App = () => {
 
   const handleClearFilters = () => {
     setFilterState({ type: 'all', month: 'any' });
+    setSearchQuery('');
+    setShowOnlySaved(false);
   };
 
   return (
     <>
-      <Navbar />
+      <Navbar
+        savedCount={savedDestIds.length}
+        isSavedViewActive={showOnlySaved}
+        onToggleSavedView={handleToggleSavedView}
+        currency={currency}
+        onCurrencyChange={handleCurrencyChange}
+      />
 
       <main id="top">
         <Hero
@@ -113,7 +165,7 @@ export const App = () => {
             <div className="section-head">
               <span className="eyebrow">Explore Destinations</span>
               <h2>Fourteen ways to experience the South.</h2>
-              <p>Filter by region type or the month you plan to travel.</p>
+              <p>Filter by region type, travel month, keywords, or view your saved wishlist.</p>
 
               {/* Loading Spinner */}
               {isLoading && (
@@ -161,10 +213,20 @@ export const App = () => {
                 <FilterToolbar
                   filterState={filterState}
                   onFilterChange={setFilterState}
+                  searchQuery={searchQuery}
+                  onSearchChange={setSearchQuery}
+                  savedCount={savedDestIds.length}
+                  showOnlySaved={showOnlySaved}
+                  onToggleShowSaved={() => setShowOnlySaved((prev) => !prev)}
                 />
                 <DestinationGrid
                   destinations={destinations}
                   filterState={filterState}
+                  searchQuery={searchQuery}
+                  savedDestIds={savedDestIds}
+                  showOnlySaved={showOnlySaved}
+                  currency={currency}
+                  onToggleSave={handleToggleSave}
                   onClearFilters={handleClearFilters}
                   onSelectPlan={handleSelectPlan}
                   onQuickEnquire={handleQuickEnquire}
@@ -187,6 +249,8 @@ export const App = () => {
         <TripPlanner
           destinations={destinations}
           selectedDestId={selectedDestId}
+          currency={currency}
+          onCurrencyChange={handleCurrencyChange}
           onSelectDest={setSelectedDestId}
           onPrefillEnquiry={handleQuickEnquire}
           onLogApi={logApiCall}
@@ -204,10 +268,10 @@ export const App = () => {
       <footer>
         <div className="wrap">
           <div>
-            &copy; 2026 Paradise Travel. Built with React &amp; Bootstrap 5. Live weather powered by Open-Meteo.
+            &copy; 2026 Paradise Travel. Built with React 18 &amp; Bootstrap 5. Live weather powered by Open-Meteo.
           </div>
           <div>
-            Sample indicative pricing in ₹. Itineraries verified against South India &amp; Kerala Tourism guidelines.
+            Sample indicative pricing. Itineraries verified against South India &amp; Kerala Tourism guidelines.
           </div>
         </div>
       </footer>

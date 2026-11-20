@@ -1292,3 +1292,337 @@ footer .wrap {
   gap: 16px;
   align-items: center;
 }
+
+/* ==========================================================================
+   ENHANCED PROFESSIONAL FEATURES (Search, Wishlist, Photography, Transit, Packing)
+   ========================================================================== */
+
+/* Search Bar */
+.toolbar-wrapper {
+  margin-bottom: 24px;
+}
+
+.search-bar-row {
+  margin-bottom: 16px;
+}
+
+.search-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  font-size: 16px;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 38px 12px 42px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 14px;
+  font-family: inherit;
+  transition: all 0.2s var(--ease);
+  box-shadow: var(--shadow-xs);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--lagoon);
+  box-shadow: 0 0 0 3px var(--lagoon-subtle);
+}
+
+.search-clear-btn {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 13px;
+  padding: 4px;
+  line-height: 1;
+}
+
+.search-clear-btn:hover {
+  color: var(--accent);
+}
+
+/* Wishlist Chip */
+.chip.chip-wishlist {
+  background: var(--surface);
+  border-color: rgba(224, 86, 56, 0.3);
+  color: var(--ink);
+}
+
+.chip.chip-wishlist.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+/* Navbar Wishlist Button */
+.nav-wishlist-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s var(--ease);
+}
+
+.nav-wishlist-btn:hover, .nav-wishlist-btn.active {
+  background: var(--surface-raised);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Currency Select in Navbar */
+.currency-select {
+  padding: 5px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.currency-select:focus {
+  outline: none;
+  border-color: var(--lagoon);
+}
+
+/* Card Image Enhancements */
+.pic-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
+}
+
+.card-real-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-custom:hover .card-real-img {
+  transform: scale(1.05);
+}
+
+/* Skeleton Loading Shimmer */
+.skeleton-image {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(90deg, var(--bg-subtle) 25%, var(--line) 50%, var(--bg-subtle) 75%);
+  background-size: 200% 100%;
+  animation: skeletonShimmer 1.5s infinite;
+}
+
+@keyframes skeletonShimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Wishlist Heart on Card */
+.wishlist-heart-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 15px;
+  transition: transform 0.2s var(--ease), background 0.2s;
+  z-index: 4;
+}
+
+.wishlist-heart-btn:hover {
+  transform: scale(1.15);
+  background: #ffffff;
+}
+
+.wishlist-heart-btn.saved {
+  background: #ffffff;
+}
+
+/* Star Rating Badge */
+.card-rating-badge {
+  font-size: 12px;
+  font-weight: 700;
+  color: #B26A00;
+  background: rgba(255, 183, 3, 0.15);
+  padding: 2px 7px;
+  border-radius: var(--radius-xs);
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.card-rating-badge small {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+/* Feature Tags */
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-block: 8px 12px;
+}
+
+.tag-pill {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--lagoon);
+  background: var(--lagoon-subtle);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+}
+
+/* Transit Action Links */
+.transit-action-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--lagoon);
+  text-decoration: none;
+  background: var(--lagoon-soft);
+  padding: 2px 8px;
+  border-radius: var(--radius-xs);
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  transition: all 0.2s;
+}
+
+.transit-action-link:hover {
+  background: var(--lagoon);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Interactive Packing Checklist */
+.packing-card {
+  border-left: 3px solid #2A9D8F;
+}
+
+.packing-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 8px;
+}
+
+.packing-item {
+  display: flex;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: var(--radius-xs);
+  background: var(--bg-subtle);
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+
+.packing-item:hover {
+  background: var(--line);
+}
+
+.packing-item.checked {
+  background: rgba(42, 157, 143, 0.1);
+  text-decoration: line-through;
+  opacity: 0.75;
+}
+
+/* Print Itinerary Button */
+.btn-print-itinerary {
+  padding: 7px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.2s var(--ease);
+}
+
+.btn-print-itinerary:hover {
+  background: var(--surface-raised);
+  border-color: var(--lagoon);
+  color: var(--lagoon);
+}
+
+.planner-side-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  margin-bottom: 12px;
+}
+
+/* Print Stylesheet (Clean PDF Export) */
+@media print {
+  header.site,
+  .hero,
+  .places,
+  .map-section,
+  .contact,
+  footer,
+  .api-log-drawer,
+  .plan-toolbar,
+  .btn-print-itinerary,
+  #planThisTripBtn {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .plan-section {
+    padding: 0 !important;
+  }
+
+  .panel {
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+
+  .rich-details {
+    grid-template-columns: 1fr 1fr !important;
+    page-break-inside: avoid;
+  }
+}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { CURRENCIES } from '../utils/helpers';
 
-export const Navbar = () => {
+export const Navbar = ({ savedCount = 0, onToggleSavedView, isSavedViewActive, currency, onCurrencyChange }) => {
   const [theme, setTheme] = useState(() => {
     return document.documentElement.getAttribute('data-theme') ||
       (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
@@ -30,13 +31,43 @@ export const Navbar = () => {
           </a>
 
           <div className="nav-actions">
+            {/* Currency Selector */}
+            <select
+              className="currency-select"
+              value={currency}
+              onChange={(e) => onCurrencyChange(e.target.value)}
+              title="Change display currency"
+              aria-label="Currency selector"
+            >
+              {Object.keys(CURRENCIES).map((code) => (
+                <option key={code} value={code}>
+                  {code} ({CURRENCIES[code].symbol})
+                </option>
+              ))}
+            </select>
+
+            {/* Saved Wishlist Toggle */}
+            <button
+              className={`nav-wishlist-btn ${isSavedViewActive ? 'active' : ''}`}
+              onClick={onToggleSavedView}
+              title="View your saved wishlist destinations"
+              aria-label="Saved destinations"
+            >
+              <span>❤️</span>
+              <span className="d-none d-sm-inline">Saved</span>
+              <span className="badge rounded-pill bg-danger ms-1">{savedCount}</span>
+            </button>
+
+            {/* Theme Toggle */}
             <button
               className="icon-btn"
               onClick={toggleTheme}
               aria-label="Switch colour theme"
             >
-              {theme === 'dark' ? '☀️ Light' : '🌙 Theme'}
+              {theme === 'dark' ? '☀️' : '🌙'}
             </button>
+
+            {/* Mobile Menu */}
             <button
               className="icon-btn"
               onClick={() => setMenuOpen((prev) => !prev)}

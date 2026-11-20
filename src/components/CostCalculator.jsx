@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { inr } from '../utils/helpers';
+import { formatCurrency, CURRENCIES } from '../utils/helpers';
 
-export const CostCalculator = ({ dest }) => {
+export const CostCalculator = ({ dest, currency = 'INR', onCurrencyChange }) => {
   const [travellers, setTravellers] = useState(2);
   const [nights, setNights] = useState(dest.nights || 3);
 
@@ -11,7 +11,24 @@ export const CostCalculator = ({ dest }) => {
 
   return (
     <div className="info-card calc-card">
-      <h4>🧮 Cost Calculator</h4>
+      <div className="d-flex align-items-center justify-content-between mb-2">
+        <h4 className="mb-0">🧮 Group Cost Calculator</h4>
+        {onCurrencyChange && (
+          <select
+            className="form-select form-select-sm"
+            style={{ width: 'auto', fontSize: '12px' }}
+            value={currency}
+            onChange={(e) => onCurrencyChange(e.target.value)}
+          >
+            {Object.keys(CURRENCIES).map((c) => (
+              <option key={c} value={c}>
+                {c} ({CURRENCIES[c].symbol})
+              </option>
+            ))}
+          </select>
+        )}
+      </div>
+
       <div className="calc-fields">
         <div className="field">
           <label htmlFor="calcTravellers">Travellers</label>
@@ -36,13 +53,14 @@ export const CostCalculator = ({ dest }) => {
           />
         </div>
       </div>
+
       <div className="calc-result">
         <span className="calc-note">Estimated Total for Group</span>
         <div className="calc-total" id="calcTotalOutput">
-          {inr(grandTotal)}
+          {formatCurrency(grandTotal, currency)}
         </div>
         <span className="calc-note" id="calcPerPersonOutput">
-          {inr(perPersonTotal)} per person ({nights} nights)
+          {formatCurrency(perPersonTotal, currency)} per person ({nights} nights)
         </span>
       </div>
     </div>

@@ -81,7 +81,24 @@
     "coords": {
       "lat": 11.6234,
       "lon": 92.7265
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1589330273594-fade1ee91647?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.9,
+    "reviewCount": 340,
+    "tags": [
+      "Scuba & Snorkel",
+      "White Sands",
+      "Coral Reefs",
+      "Island Hopping"
+    ],
+    "packing": [
+      "Reef-safe sunscreen SPF 50+",
+      "Waterproof phone pouch",
+      "Ferry motion sickness tablets",
+      "Quick-dry microfiber beach towel",
+      "Valid Govt ID for ferry boarding"
+    ],
+    "airportCode": "IXZ"
   },
   {
     "id": "goa",
@@ -161,7 +178,25 @@
     "coords": {
       "lat": 15.4909,
       "lon": 73.8278
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.8,
+    "reviewCount": 580,
+    "tags": [
+      "Portuguese Heritage",
+      "Beach Shacks",
+      "Water Sports",
+      "Night Markets"
+    ],
+    "packing": [
+      "Comfortable beachwear & flip-flops",
+      "Valid driving license for self-drive scooters",
+      "UV-protective sunglasses & hat",
+      "Modest attire covering shoulders for churches",
+      "Mosquito repellent for evening shacks"
+    ],
+    "airportCode": "GOI",
+    "railwayCode": "MAO"
   },
   {
     "id": "gokarna",
@@ -243,7 +278,25 @@
     "coords": {
       "lat": 14.5479,
       "lon": 74.3188
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.7,
+    "reviewCount": 290,
+    "tags": [
+      "Cliff Treks",
+      "Secluded Beaches",
+      "Atmalinga Temple",
+      "Yoga & Cafes"
+    ],
+    "packing": [
+      "Trekking sandals with solid grip for rocky trails",
+      "Headlamp / small torch for unlit cliff paths",
+      "Traditional temple attire (dhoti for men)",
+      "Sufficient cash (town ATMs frequently empty)",
+      "Hydration pack or reusable bottle"
+    ],
+    "airportCode": "GOI",
+    "railwayCode": "GOK"
   },
   {
     "id": "munnar",
@@ -326,7 +379,25 @@
     "coords": {
       "lat": 10.0889,
       "lon": 77.0595
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.9,
+    "reviewCount": 620,
+    "tags": [
+      "Tea Plantations",
+      "Misty Valleys",
+      "Highest Peak",
+      "Wildlife Trek"
+    ],
+    "packing": [
+      "Warm fleece/jacket (evening dips <10°C in winter)",
+      "Sturdy walking/hiking boots with ankle support",
+      "Field binoculars for Nilgiri Tahr sightings",
+      "Light rain jacket / compact umbrella",
+      "Lip balm & moisturizer for crisp mountain air"
+    ],
+    "airportCode": "COK",
+    "railwayCode": "AWY"
   },
   {
     "id": "coorg",
@@ -408,7 +479,25 @@
     "coords": {
       "lat": 12.4244,
       "lon": 75.7382
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.8,
+    "reviewCount": 410,
+    "tags": [
+      "Coffee Plantations",
+      "Dubare Elephants",
+      "Tibetan Monastery",
+      "Misty Ridges"
+    ],
+    "packing": [
+      "Walking shoes for coffee estate plantation trails",
+      "Light sweater for crisp morning valley mist",
+      "Leech socks (essential if visiting June-October)",
+      "Camera with zoom for monastery murals & elephants",
+      "Rain poncho for sudden mountain showers"
+    ],
+    "airportCode": "CNN",
+    "railwayCode": "MYS"
   },
   {
     "id": "hampi",
@@ -489,7 +578,25 @@
     "coords": {
       "lat": 15.335,
       "lon": 76.46
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1600100397608-f010f443b793?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.9,
+    "reviewCount": 490,
+    "tags": [
+      "UNESCO World Heritage",
+      "Boulder Hills",
+      "Stone Chariot",
+      "Coracle Boats"
+    ],
+    "packing": [
+      "Broken-in walking shoes for uneven granite rock terrain",
+      "Wide-brimmed sun hat & UV sunglasses",
+      "Refillable insulated water flask (essential)",
+      "Modest clothing covering shoulders & knees",
+      "Bicycle clips or daypack for cycling around ruins"
+    ],
+    "airportCode": "VDY",
+    "railwayCode": "HPT"
   },
   {
     "id": "alleppey",
@@ -571,7 +678,25 @@
     "coords": {
       "lat": 9.4981,
       "lon": 76.3388
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.9,
+    "reviewCount": 640,
+    "tags": [
+      "Houseboat Cruising",
+      "Vembanad Backwaters",
+      "Village Canals",
+      "Karimeen Cuisine"
+    ],
+    "packing": [
+      "Herbal mosquito repellent spray & plug-in",
+      "Light breathable linen/cotton clothing",
+      "Non-slip boat footwear / sandals",
+      "Wide hat & sunglasses for open observation decks",
+      "Offline playlist or favorite book for quiet cruising"
+    ],
+    "airportCode": "COK",
+    "railwayCode": "ALLP"
   },
   {
     "id": "kochi",
@@ -653,7 +778,25 @@
     "coords": {
       "lat": 9.9658,
       "lon": 76.2421
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.8,
+    "reviewCount": 510,
+    "tags": [
+      "Chinese Fishing Nets",
+      "Colonial Heritage",
+      "Jew Town Antiques",
+      "Kathakali Dance"
+    ],
+    "packing": [
+      "Modest attire covering shoulders for synagogues & churches",
+      "Cushioned walking shoes for cobbled heritage streets",
+      "Camera for vibrant colonial architecture & fishing nets",
+      "Foldable canvas tote bag for spice bazaar shopping",
+      "Handheld fan or cooling wipes for humid afternoons"
+    ],
+    "airportCode": "COK",
+    "railwayCode": "ERS"
   },
   {
     "id": "thekkady",
@@ -736,7 +879,25 @@
     "coords": {
       "lat": 9.6031,
       "lon": 77.1665
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.7,
+    "reviewCount": 380,
+    "tags": [
+      "Tiger Reserve",
+      "Lake Boat Safari",
+      "Spice Gardens",
+      "Bamboo Rafting"
+    ],
+    "packing": [
+      "Earthy, neutral toned clothes (khakis, greens, browns)",
+      "Binoculars for wildlife spotting along the lake",
+      "Comfortable walking shoes with good tread",
+      "Compact rain jacket for sudden forest drizzles",
+      "Cash for forest checkpost entry & camera fees"
+    ],
+    "airportCode": "IXM",
+    "railwayCode": "KTYM"
   },
   {
     "id": "wayanad",
@@ -820,7 +981,25 @@
     "coords": {
       "lat": 11.6103,
       "lon": 76.0827
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.8,
+    "reviewCount": 430,
+    "tags": [
+      "Prehistoric Caves",
+      "Banasura Earthen Dam",
+      "Chembra Heart Lake",
+      "Treehouses"
+    ],
+    "packing": [
+      "Grip trekking shoes for the steep Edakkal Cave climb",
+      "Light windcheater or fleece jacket for evening mist",
+      "Insect repellent for forest trails & bamboo islands",
+      "High-capacity power bank for scenic mountain road trips",
+      "Reusable rain poncho"
+    ],
+    "airportCode": "CCJ",
+    "railwayCode": "CLT"
   },
   {
     "id": "varkala",
@@ -902,7 +1081,25 @@
     "coords": {
       "lat": 8.7379,
       "lon": 76.7163
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.8,
+    "reviewCount": 460,
+    "tags": [
+      "Red Laterite Cliffs",
+      "Papanasam Mineral Springs",
+      "Clifftop Cafes",
+      "Sunset Yoga"
+    ],
+    "packing": [
+      "Casual beachwear & comfortable walking sandals",
+      "Stretchy yoga wear for clifftop morning sessions",
+      "Traditional temple clothing for Janardhana Swamy visit",
+      "High SPF sunscreen and soothing aloe vera gel",
+      "Swim goggles or earplugs for mineral spring dips"
+    ],
+    "airportCode": "TRV",
+    "railwayCode": "VAK"
   },
   {
     "id": "kovalam",
@@ -985,7 +1182,25 @@
     "coords": {
       "lat": 8.4004,
       "lon": 76.9787
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.7,
+    "reviewCount": 390,
+    "tags": [
+      "Striped Lighthouse",
+      "Crescent Beaches",
+      "Ayurvedic Wellness",
+      "Poovar Estuary"
+    ],
+    "packing": [
+      "Relaxed coastal beachwear & flip-flops",
+      "Traditional dress (mandatory dhoti/saree) for Padmanabhaswamy",
+      "Water sandals for catamaran boat transfers",
+      "Moisturizing sunscreen & sunglasses",
+      "Light cotton scarf for sun protection"
+    ],
+    "airportCode": "TRV",
+    "railwayCode": "TVC"
   },
   {
     "id": "athirappilly",
@@ -1069,7 +1284,25 @@
     "coords": {
       "lat": 10.315,
       "lon": 76.5683
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.9,
+    "reviewCount": 520,
+    "tags": [
+      "80ft Waterfalls",
+      "Rainforest Rapids",
+      "Hornbill Spotting",
+      "Eco-Park Trails"
+    ],
+    "packing": [
+      "Slip-resistant water/trekking shoes (essential for wet mossy steps)",
+      "Waterproof pouch for smartphones & cameras",
+      "Rain poncho / quick-dry synthetic clothing",
+      "Reusable non-plastic water bottle (strict zero-plastic forest gate)",
+      "Insect repellent for dense canopy walks"
+    ],
+    "airportCode": "COK",
+    "railwayCode": "CKI"
   },
   {
     "id": "kumarakom",
@@ -1152,6 +1385,24 @@
     "coords": {
       "lat": 9.6175,
       "lon": 76.4301
-    }
+    },
+    "image": "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=900&q=80",
+    "rating": 4.8,
+    "reviewCount": 370,
+    "tags": [
+      "Bird Sanctuary",
+      "Vembanad Luxury",
+      "Canoe Village Tours",
+      "Syrian Christian Feasts"
+    ],
+    "packing": [
+      "Binoculars or telephoto zoom lens for migratory birds",
+      "Effective mosquito repellent for open lakeside verandas at dusk",
+      "Breezy linen and light cotton resort wear",
+      "Wide sun hat & UV sunglasses for midday canoe rides",
+      "Slip-on boat shoes or comfortable sandals"
+    ],
+    "airportCode": "COK",
+    "railwayCode": "KTYM"
   }
 ]

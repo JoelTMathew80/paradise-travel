@@ -8,6 +8,8 @@ const DURATION_OPTIONS = [2, 3, 5];
 export const TripPlanner = ({
   destinations,
   selectedDestId,
+  currency = 'INR',
+  onCurrencyChange,
   onSelectDest,
   onPrefillEnquiry,
   onLogApi
@@ -49,12 +51,27 @@ export const TripPlanner = ({
     evening: 'Sunset and relaxation'
   };
 
+  const handlePrint = () => {
+    window.print();
+  };
+
   return (
     <section id="plan" className="plan-section">
       <div className="wrap">
         <div className="section-head">
-          <span className="eyebrow">Curated Itineraries</span>
-          <h2>A day-by-day blueprint.</h2>
+          <div className="d-flex flex-wrap align-items-center justify-content-between gap-2">
+            <div>
+              <span className="eyebrow">Curated Itineraries</span>
+              <h2>A day-by-day blueprint.</h2>
+            </div>
+            <button
+              className="btn-print-itinerary"
+              onClick={handlePrint}
+              title="Print or save as PDF"
+            >
+              🖨️ Print / Save PDF
+            </button>
+          </div>
           <p>
             Choose a destination and trip duration to explore realistic morning, afternoon, and evening recommendations.
           </p>
@@ -160,7 +177,16 @@ export const TripPlanner = ({
 
           <div className="panel-side">
             <div className="art">
-              <SceneArt kind={dest.sc[0]} colors={dest.sc[1]} />
+              {dest.image ? (
+                <img
+                  src={dest.image}
+                  alt={dest.name}
+                  className="planner-side-img"
+                  loading="lazy"
+                />
+              ) : (
+                <SceneArt kind={dest.sc[0]} colors={dest.sc[1]} />
+              )}
             </div>
             <button
               className="btn-custom"
@@ -173,7 +199,11 @@ export const TripPlanner = ({
         </div>
 
         {/* Rich Travel Details, Budget Breakdown & Cost Calculator */}
-        <RichDetails dest={dest} />
+        <RichDetails
+          dest={dest}
+          currency={currency}
+          onCurrencyChange={onCurrencyChange}
+        />
       </div>
     </section>
   );
