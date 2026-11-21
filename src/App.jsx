@@ -6,7 +6,6 @@ import { DestinationGrid } from './components/DestinationGrid';
 import { MapExplorer } from './components/MapExplorer';
 import { TripPlanner } from './components/TripPlanner';
 import { EnquiryForm } from './components/EnquiryForm';
-import { ApiLogDrawer } from './components/ApiLogDrawer';
 import { WishlistDrawer } from './components/WishlistDrawer';
 
 let logCounter = 0;
@@ -291,9 +290,6 @@ export const App = () => {
         onClearAll={() => setSavedDestIds([])}
         onSelectPlan={handleSelectPlan}
       />
-
-      {/* Real-time REST API Logger Drawer */}
-      <ApiLogDrawer logs={apiLogs} onClear={clearApiLogs} />
     </>
   );
 };

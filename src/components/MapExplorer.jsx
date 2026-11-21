@@ -126,8 +126,8 @@ export const MapExplorer = ({ destinations, selectedDestId, onSelectDest, onLogA
             </a>
           </div>
 
-          <div className="map-frame-container" id="mapFrameContainer" ref={containerRef}>
-            {isLoadingIframe && (
+          <div className="map-frame-wrapper" id="mapFrameContainer" ref={containerRef}>
+            {isIntersected && isLoadingIframe && (
               <div className="map-loading-overlay" id="mapLoadingOverlay">
                 <div className="spinner-border text-primary" role="status">
                   <span className="visually-hidden">Loading map...</span>
@@ -138,6 +138,7 @@ export const MapExplorer = ({ destinations, selectedDestId, onSelectDest, onLogA
             {isIntersected ? (
               <iframe
                 id="googleMapIframe"
+                className="map-iframe"
                 title={`Google Map for ${query}`}
                 src={embedUrl}
                 loading="lazy"
@@ -146,7 +147,7 @@ export const MapExplorer = ({ destinations, selectedDestId, onSelectDest, onLogA
                 onLoad={handleIframeLoad}
               />
             ) : (
-              <div className="d-flex align-items-center justify-content-center h-100 text-muted">
+              <div className="d-flex align-items-center justify-content-center h-100 text-muted" style={{ minHeight: '480px' }}>
                 <span>Scroll to load interactive map...</span>
               </div>
             )}
